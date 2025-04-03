@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricle - Guess the Cricketer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Add a library like Awesomplete or build custom autocomplete JS -->
+    <link rel="stylesheet" href="https://unpkg.com/awesomplete@1.1.5/awesomplete.css" />
+    <script src="https://unpkg.com/awesomplete@1.1.5/awesomplete.min.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cricle</h1>
+        <p>Guess today's cricketer in 5 chances</p>
+
+        <div class="guess-area">
+            <div class="search-container">
+                <input type="text" id="cricketer-input" placeholder="Search for a cricketer..." class="awesomplete" data-list="">
+                <button id="guess-button">Guess</button>
+            </div>
+             <div id="timer">00:00</div>
+        </div>
+         <p id="search-instruction">Search for a cricketer and click Guess</p>
+
+
+        <div id="guesses-container">
+            <!-- Guesses will be appended here by JavaScript -->
+        </div>
+
+        <div id="message-area">
+            <!-- Success/Failure messages appear here -->
+        </div>
+    </div>
+
+    <script>
+        // Pass initial data from Flask to JavaScript
+        const ALL_CRICKETER_NAMES = {{ all_cricketer_names | tojson }};
+        const MAX_GUESSES = 5;
+    </script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
