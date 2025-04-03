@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Virat Kohli",
+    "debut_year": 2008,
+    "country_playing": "India",
+    "country_born": "India",
+    "type": "Batter",
+    "ipl_team": "Royal Challengers Bengaluru"
+  },
+  {
+    "name": "Rohit Sharma",
+    "debut_year": 2007,
+    "country_playing": "India",
+    "country_born": "India",
+    "type": "Batter",
+    "ipl_team": "Mumbai Indians"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "debut_year": 2016,
+    "country_playing": "India",
+    "country_born": "India",
+    "type": "Bowler",
+    "ipl_team": "Mumbai Indians"
+  },
+  {
+    "name": "Kane Williamson",
+    "debut_year": 2010,
+    "country_playing": "New Zealand",
+    "country_born": "New Zealand",
+    "type": "Batter",
+    "ipl_team": "Gujarat Titans"
+  },
+  {
+    "name": "Pat Cummins",
+    "debut_year": 2011,
+    "country_playing": "Australia",
+    "country_born": "Australia",
+    "type": "Bowler",
+    "ipl_team": "Sunrisers Hyderabad"
+  },
+  {
+      "name": "Ben Stokes",
+      "debut_year": 2011,
+      "country_playing": "England",
+      "country_born": "New Zealand",
+      "type": "Allrounder",
+      "ipl_team": "Chennai Super Kings"
+  },
+  {
+      "name": "Rashid Khan",
+      "debut_year": 2015,
+      "country_playing": "Afghanistan",
+      "country_born": "Afghanistan",
+      "type": "Bowler",
+      "ipl_team": "Gujarat Titans"
+  }
+]
